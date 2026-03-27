@@ -135,8 +135,18 @@ export const results = Route.get(
 						}}
 					</tbody>
 				</table>
+
 				<hr />
-				<page.Anchor>Restart</page.Anchor>
+
+				<footer>
+					<page.Anchor class="button">Restart</page.Anchor>
+
+					<drab-share url={c.url.toString()}>
+						<button data-trigger class="secondary" type="button">
+							Share
+						</button>
+					</drab-share>
+				</footer>
 			</Layout>
 		);
 	},

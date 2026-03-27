@@ -12,6 +12,7 @@
 		"format": "prettier --write ."
 	},
 	"dependencies": {
+		"drab": "^8.0.0",
 		"ovr": "^6.2.3",
 		"uico": "^0.12.0"
 	},
