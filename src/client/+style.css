@@ -1,0 +1,22 @@
+@import "uico/style.css";
+
+@layer base {
+	body {
+		margin-inline: auto;
+		margin-block: var(--size-6);
+		padding-inline: var(--size-4);
+		max-width: 450px;
+		font-variant-numeric: tabular-nums;
+	}
+}
+
+@layer components {
+	label {
+		text-transform: capitalize;
+	}
+
+	form {
+		display: grid;
+		gap: var(--size-4);
+	}
+}
